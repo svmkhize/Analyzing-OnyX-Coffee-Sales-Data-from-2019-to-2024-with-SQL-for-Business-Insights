@@ -320,13 +320,17 @@ Based on the analysis of OnyX Coffee's data, the following observations and reco
 
 * **Customer Loyalty:** While 51% of customers are enrolled in the loyalty program, only 60% of the top ten customers are members. This suggests a potential opportunity to increase loyalty program penetration among high-value customers. **Recommendation:** Implement targeted campaigns to encourage loyalty program sign-ups, focusing on high-value customers to increase retention and repeat purchases.
 
-* **Product Profitability:** Liberica coffee beans have the highest profit margin. **Recommendation:** Prioritize marketing and sales efforts towards Liberica coffee beans to maximize profitability.
+* **Product Profitability:** Liberica coffee beans have the highest profit margin.
+  **Recommendation:** Prioritize marketing and sales efforts towards Liberica coffee beans to maximize profitability.
 
-* **Roast Preference:** Light roast coffee beans generate the most sales. **Recommendation:** Ensure sufficient stock of light roast beans and consider featuring them in promotional activities.
+* **Roast Preference:** Light roast coffee beans generate the most sales.
+  **Recommendation:** Ensure sufficient stock of light roast beans and consider featuring them in promotional activities.
 
-* **Geographic Focus:** South Africa is the primary market, accounting for the majority of orders, revenue, and profit. **Recommendation:** Continue to focus on the South African market while also developing strategies to grow sales in Botswana and Namibia.
+* **Geographic Focus:** South Africa is the primary market, accounting for the majority of orders, revenue, and profit.
+  **Recommendation:** Continue to focus on the South African market while also developing strategies to grow sales in Botswana and Namibia.
 
-* **Sales Trends:** Sales are higher during the winter months (May, June, July, and August) in Southern Africa. **Recommendation:** Optimize inventory and staffing levels to meet the increased demand during these months. Consider running winter-themed promotions to further capitalize on this trend.
+* **Sales Trends:** Sales are higher during the winter months (May, June, July, and August) in Southern Africa.
+  **Recommendation:** Optimize inventory and staffing levels to meet the increased demand during these months. Consider running winter-themed promotions to further capitalize on this trend.
 
 
 See the raw data, Excel Dashboard, and pivot tables & charts in the [Excel workbook](https://github.com/svmkhize/Onyx-Coffee-2019-to-2022-Sales-Analysis/blob/main/OnyX%20Coffee%20Excel%20Workbook.xlsx)
