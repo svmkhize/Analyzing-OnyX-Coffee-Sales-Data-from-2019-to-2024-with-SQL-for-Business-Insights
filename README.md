@@ -256,9 +256,31 @@ Robusta medium roast (0.2 kg) was the most favoured product among South African 
 
  **11. Country-Specific Bean Type Performance:** 
 
-  ```sql
+What is the revenue and profit of each type of coffee bean for each country?
 
+  ```sql
+WITH coffee_sold AS (
+ SELECT customers.country, ROUND(SUM(orders.quantity * products.unit_price), 2) AS Revenue, products.coffee_type
+ FROM orders
+ LEFT JOIN customers ON orders.customer_id = customers.customer_id
+ LEFT JOIN products ON orders.product_id = products.product_id
+ GROUP BY customers.country, products.coffee_type
+),
+coffee_ranks AS (
+  SELECT *, DENSE_RANK() OVER(PARTITION BY country ORDER BY Revenue DESC) AS coffee_rank
+        FROM coffee_sold
+)
+SELECT coffee_type, country, Revenue
+FROM coffee_ranks
+ORDER BY Revenue DESC;
 ```
+![Q11](https://github.com/user-attachments/assets/f0001724-ca0f-4c98-8d18-34ccf161d5b5)
+
+According to the table, coffee bean varieties are preferred differently in each nation.  Liberica coffee beans generated the most money for South African consumers, totalling ZAR 613,583.51.
+
+Liberica coffee beans were also the biggest source of income for Botswana's consumers, bringing in ZAR 179,031.14.
+
+With ZAR 82,939.10, Excelsa coffee beans were the biggest source of income for Namibian consumers.
 
  **12. Top South African Cities for Sales:** 
 
