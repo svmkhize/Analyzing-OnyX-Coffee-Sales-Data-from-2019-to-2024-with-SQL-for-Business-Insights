@@ -114,6 +114,7 @@ SELECT loyalty_card, COUNT(loyalty_card) AS Count
 FROM customers
 GROUP BY loyalty_card;
 ```
+![Q2](https://github.com/user-attachments/assets/4c9c350d-106f-4f8d-b611-9b80db5c5f6c)
 
 Fifty-one percent of consumers possess loyalty cards, while forty-nine percent do not.  It's interesting that, out of the top 10 customers on the list, only 60% had loyalty cards, although 51% of all customers had them.  Customers that purchase more goods from a business are typically more likely to become members.
 
