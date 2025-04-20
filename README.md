@@ -225,9 +225,29 @@ It should come as no surprise that South African clients are OnyX Coffee's prima
 
  **10. Top Products by Country:** 
 
-  ```sql
+What product is most popular in each country?
 
+  ```sql
+WITH coffee_type AS (
+	SELECT customers.country, products.coffee_type, products.roast_type, products.Size, SUM(quantity) AS Quantity_Sold
+	FROM orders
+	LEFT JOIN customers ON orders.customer_id = customers.customer_id
+	LEFT JOIN products ON orders.product_id = products.product_id
+	GROUP BY customers.country, products.coffee_type, products.roast_type, products.size
+),
+quant_rank AS (
+	SELECT *, DENSE_RANK() OVER(PARTITION BY country ORDER BY Quantity_Sold DESC) AS q_rank
+    FROM coffee_type
+)
+SELECT country, coffee_type, roast_type, size, Quantity_Sold
+FROM quant_rank
+WHERE q_rank = 1
+ORDER BY Quantity_Sold DESC;
 ```
+
+![Q10](https://github.com/user-attachments/assets/e06ea60e-0a0b-480c-91e1-33ef68d9c473)
+
+Robusta medium roast (0.2 kg) was the most favoured product among South African consumers.  Robusta dark roast (0.5 kg) was the most preferred among Botswana's customers.  Arabica medium roast (0.5 kg) was the most widely consumed type in Namibia.
 
  **11. Country-Specific Bean Type Performance:** 
 
