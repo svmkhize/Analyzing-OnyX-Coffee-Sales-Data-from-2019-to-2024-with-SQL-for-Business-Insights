@@ -7,7 +7,7 @@ For more of my projects, visit [My Portfolio](https://svmkhize.github.io/Portfol
 - [Data Structure Overview](#data-structure-overview) 
 - [Executive Summary](#executive-summary) 
 - [Insights Deep-Dive](#insights-deep-dive) 
-- [Recommendations](#recommendations)
+- [Recommendations](#observation-&rRecommendation)
 
 ![OnyX_SQL_Banner](https://github.com/user-attachments/assets/494ad9e1-8f05-457f-b794-6b0bd730c1e5)
 
