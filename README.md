@@ -318,18 +318,19 @@ During Southern Africa's winter months of May, June, July, and August, OnyX Coff
 
 Based on the analysis of OnyX Coffee's data, the following observations and recommendations are made:
 
-* **Customer Loyalty:** While 51% of customers are enrolled in the loyalty program, only 60% of the top ten customers are members. This suggests a potential opportunity to increase loyalty program penetration among high-value customers. **Recommendation:** Implement targeted campaigns to encourage loyalty program sign-ups, focusing on high-value customers to increase retention and repeat purchases.
+* **Customer Loyalty:** While 51% of customers are enrolled in the loyalty program, only 60% of the top ten customers are members. This suggests a potential opportunity to increase loyalty program penetration among high-value customers.<br>
+  **Recommendation:** Implement targeted campaigns to encourage loyalty program sign-ups, focusing on high-value customers to increase retention and repeat purchases.
 
-* **Product Profitability:** Liberica coffee beans have the highest profit margin.
+* **Product Profitability:** Liberica coffee beans have the highest profit margin.<br>
   **Recommendation:** Prioritize marketing and sales efforts towards Liberica coffee beans to maximize profitability.
 
-* **Roast Preference:** Light roast coffee beans generate the most sales.
+* **Roast Preference:** Light roast coffee beans generate the most sales.<br>
   **Recommendation:** Ensure sufficient stock of light roast beans and consider featuring them in promotional activities.
 
-* **Geographic Focus:** South Africa is the primary market, accounting for the majority of orders, revenue, and profit.
+* **Geographic Focus:** South Africa is the primary market, accounting for the majority of orders, revenue, and profit.<br>
   **Recommendation:** Continue to focus on the South African market while also developing strategies to grow sales in Botswana and Namibia.
 
-* **Sales Trends:** Sales are higher during the winter months (May, June, July, and August) in Southern Africa.
+* **Sales Trends:** Sales are higher during the winter months (May, June, July, and August) in Southern Africa.<br>
   **Recommendation:** Optimize inventory and staffing levels to meet the increased demand during these months. Consider running winter-themed promotions to further capitalize on this trend.
 
 
