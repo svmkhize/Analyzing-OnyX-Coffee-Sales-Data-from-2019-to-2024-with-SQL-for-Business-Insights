@@ -163,9 +163,19 @@ Size 2.5 is the largest size that OnyX Coffee sells, and it makes up the majorit
 
  **6. Coffee Bean Type Performance:** 
 
-  ```sql
+What is the revenue and profit for each coffee bean type?
 
+  ```sql
+SELECT products.coffee_type, ROUND(SUM(orders.quantity * products.unit_price), 2) AS Revenue, ROUND(SUM(orders.quantity * products.profit), 2) AS profit
+From orders
+LEFT JOIN customers ON orders.customer_id = customers.customer_id
+LEFT JOIN products ON orders.product_id = products.product_id
+GROUP BY products.coffee_type
+ORDER BY Revenue DESC;
 ```
+![Q6](https://github.com/user-attachments/assets/5ff1448b-5574-487a-8e4f-f24ea54b6d09)
+
+Liberica coffee beans are the most profitable, which suggests that their sales are higher.  Customers place larger orders for Liberica coffee beans as a result, increasing their profit margin.  This indicates that selling Liberica coffee beans is more profitable for the business, therefore they may concentrate their marketing efforts on increasing sales of these beans.
 
  **7. Roast Preference Analysis:** 
 
