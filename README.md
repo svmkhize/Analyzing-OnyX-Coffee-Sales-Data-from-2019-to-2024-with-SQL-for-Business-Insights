@@ -179,9 +179,19 @@ Liberica coffee beans are the most profitable, which suggests that their sales a
 
  **7. Roast Preference Analysis:** 
 
-  ```sql
+What type of roast generate the most sales?
 
+  ```sql
+SELECT products.roast_type, ROUND(SUM(orders.quantity * products.unit_price), 2) AS Revenue
+From orders
+LEFT JOIN customers ON orders.customer_id = customers.customer_id
+LEFT JOIN products ON orders.product_id = products.product_id
+GROUP BY products.roast_type
+ORDER BY Revenue DESC;
 ```
+![Q7](https://github.com/user-attachments/assets/6d2b216f-d65e-4a97-9d01-e3abb3ffba9b)
+
+With ZAR 1,113,800.03 in revenue, light roast is the most popular roast for The Roasters coffee beans.
 
  **8. Product Distribution and Country-Specific Sales:** 
 
