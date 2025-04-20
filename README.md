@@ -210,9 +210,18 @@ South Africa accounts for the majority of orders.
 
  **9. Country-Specific Financial Performance:** 
 
-  ```sql
+Profit and Revenue Per Country
 
+  ```sql
+SELECT customers.country, ROUND(SUM((orders.quantity * products.unit_price)), 2) AS Revenue, ROUND(SUM(orders.quantity * products.profit), 2) AS Profit
+FROM orders
+LEFT JOIN customers ON customers.customer_id = orders.customer_id
+LEFT JOIN products ON orders.product_id = products.product_id
+GROUP BY customers.country;
 ```
+![Q9](https://github.com/user-attachments/assets/2700f9a6-519c-4a38-b7d5-07a82b851252)
+
+It should come as no surprise that South African clients are OnyX Coffee's primary source of income and profit given the volume of orders .
 
  **10. Top Products by Country:** 
 
