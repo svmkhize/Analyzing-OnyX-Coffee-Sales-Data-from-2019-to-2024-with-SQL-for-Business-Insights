@@ -103,6 +103,8 @@ LIMIT 10;
 
 ![Q1](https://github.com/user-attachments/assets/e5c9daed-ce9f-4ab5-9a73-fa41e7ef5367)
 
+According to customer sales, these are the top ten clients.  According to the table, just 60% of the top ten customers hold loyalty cards.
+
  **2. Loyalty Program Penetration:** 
 
  **3. Geographic Customer Distribution:** 
