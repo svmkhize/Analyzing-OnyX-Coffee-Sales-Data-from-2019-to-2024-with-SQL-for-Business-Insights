@@ -64,26 +64,7 @@ This was inspired by [Kaggle Website Dataset](https://www.kaggle.com/datasets/sa
 
 ## Executive Summary
 ---
-OnyX Coffee has established a strong market presence in the Southern African region, with South Africa being the leading market, accounting for approximately 70% of total sales (ZAR 2,089,839.73) and total orders (99,927). Botswana is the second-largest market, contributing around 20% to total sales (ZAR 418,953.56) and total orders (28,744). Namibia, while smaller, still makes a notable contribution, representing roughly 9.7% of total sales (ZAR 203,520.08) and total orders (13,879).
-
-**Key Observations:**
-- **Market Concentration:** A significant portion of OnyX Coffee's revenue and order volume is concentrated in South Africa.
-- **Consistent Performance:** The contribution percentage of each country to total sales closely matches its percentage contribution to total orders, indicating a consistent average order value across the markets.
-- **Growth Potential:** While South Africa is currently the stronghold, Botswana and Namibia offer opportunities for further growth and market penetration.
-
-**Considerations:**
-1. **Strengthen South African Market Leadership:** Continue investing in and solidifying OnyX Coffee's position in South Africa through targeted marketing campaigns, loyalty programs, and possibly expanding product offerings tailored to local consumer preferences.
-2. **Explore Growth Opportunities in Botswana and Namibia:** Conduct market research to better understand consumer preferences and identify growth opportunities in Botswana and Namibia. This may involve targeted marketing initiatives, localised distribution strategies, or partnerships to boost brand awareness and market share.
-3. **Maintain Consistent Order Value:** Monitor the average order value in each market to ensure profitability and identify any potential shifts in consumer purchasing behaviour.
-4. **Consider Regional Expansion:** Based on initial market success, OnyX Coffee could strategically explore expansion into other neighbouring countries in the Southern African region.
-
-By focusing on strengthening its dominant position in South Africa while strategically pursuing growth opportunities in Botswana and Namibia, OnyX Coffee can further enhance its market presence and drive sustainable growth in the region.
-
-Below is the overview page from the Excel dashboard and more examples are included throughout the report. The entire Excel worksheet containing a dashboard can be downloaded [here](https://github.com/svmkhize/Onyx-Coffee-2019-to-2022-Sales-Analysis/blob/main/OnyX%20Coffee%20Excel%20Workbook.xlsx). Alternatively, an on-demand live demonstration can be seen [here](https://www.loom.com/share/cf6c9fc9cbef4084b240b54cb1bafd85?sid=087cd9cb-fdcb-45a1-9749-66565b2778ce)
-
-
-![Onyx Executive Summary image](https://github.com/user-attachments/assets/59f013a7-4411-47b7-9d3a-2e552dc72d28)
-
+This report presents a comprehensive analysis of OnyX Coffee's sales, product, and customer loyalty data to provide actionable insights for enhancing profitability and commercial success.  The analysis covers key areas such as customer loyalty, product performance, and geographical distribution.  Key findings include that Liberica coffee beans are the most profitable, light roast is the most popular roast type, and South Africa is the primary market.  The analysis also indicates that only 51% of customers are enrolled in the loyalty program, with 60% of the top ten customers being members.  Recommendations focus on leveraging these insights to improve customer engagement, product strategy, and market penetration. 
 
 ## Insights Deep-Dive
 ---
@@ -332,43 +313,20 @@ ORDER BY Sales DESC;
 
 During Southern Africa's winter months of May, June, July, and August, OnyX Coffee makes the most money.  Wintertime is often when people drink the most coffee.
 
-## Recommendations
+## Observation & Recommendation
 ---
-**I. Sales Trends and Growth Rates:**
 
-- **Prioritize Order Volume Growth:** While the Average Order Value (AOV) remains stable, future growth should focus on strategies aimed at increasing overall order volume. Consider marketing campaigns that target new customer acquisition and initiatives to encourage repeat purchases from existing customers.
+Based on the analysis of OnyX Coffee's data, the following observations and recommendations are made:
 
-- **Investigate Factors Influencing Fluctuations:** Conduct a thorough analysis of the factors that contributed to negative growth in 2020 and subsequent fluctuations. Understanding these influences, such as economic conditions, competitor activities, and internal operational changes, will enable more informed strategic planning and risk mitigation.
+* **Customer Loyalty:** While 51% of customers are enrolled in the loyalty program, only 60% of the top ten customers are members. This suggests a potential opportunity to increase loyalty program penetration among high-value customers. **Recommendation:** Implement targeted campaigns to encourage loyalty program sign-ups, focusing on high-value customers to increase retention and repeat purchases.
 
-- **Set Ambitious but Realistic Growth Targets:** Based on historical data and market analysis, establish clear and measurable sales growth targets for the coming years. Develop specific strategies and allocate resources to achieve these targets.
+* **Product Profitability:** Liberica coffee beans have the highest profit margin. **Recommendation:** Prioritize marketing and sales efforts towards Liberica coffee beans to maximize profitability.
 
-- **Explore Potential Seasonality:** Analyse sales data on a more granular level (e.g., monthly) to identify potential seasonal patterns in demand. This information can optimise inventory management, staffing, and marketing efforts throughout the year.
+* **Roast Preference:** Light roast coffee beans generate the most sales. **Recommendation:** Ensure sufficient stock of light roast beans and consider featuring them in promotional activities.
 
-**II. Product Performance Analysis:**
+* **Geographic Focus:** South Africa is the primary market, accounting for the majority of orders, revenue, and profit. **Recommendation:** Continue to focus on the South African market while also developing strategies to grow sales in Botswana and Namibia.
 
-- **Leverage High-Revenue Performers:** Take advantage of the strong performance of Liberica and Excelsa by ensuring consistent sourcing. Explore premium offerings within these categories and highlight their value proposition in marketing materials.
-
-- **Conduct a Strategic Review of Arabica and Robusta:** Analyse the cost structure, pricing strategy, and customer perception of Arabica and Robusta offerings. Consider the following:
-  - **Pricing Adjustments:** Evaluate the possibility of modest price increases, if supported by market research.
-  - **Value-Added Options:** Introduce blends or speciality preparations featuring Arabica and Robusta at a premium price point.
-  - **Targeted Marketing:** Create specific marketing campaigns that emphasise the unique characteristics and appeal of Arabica and Robusta to particular customer segments.
-
-- **Monitor Product Mix:** Continuously track the sales and order volume of each coffee type to identify shifts in customer preferences and adjust product offerings as needed. Consider introducing limited-edition or seasonal coffee types to generate excitement and attract new customers.
-
-**III. Loyalty Program Performance Analysis:**
-
-- **Enhance Member Benefits to Drive Higher AOV:** Implement strategies to encourage loyalty program members to increase their average spending per order. Consider:
-  - **Tiered Rewards:** Introduce membership tiers with escalating benefits based on spending or purchase frequency.
-  - **Points System with Spending Thresholds:** Award points for every purchase, with bonus points or exclusive rewards available for reaching certain spending milestones.
-  - **Member-Exclusive Discounts:** Offer discounts specifically for members who purchase larger quantities or curated product bundles.
-
-- **Personalise Member Experience:** Utilise data on member purchase history and preferences to personalise offers, discounts, and communications. This approach can boost engagement and encourage higher spending.
-
-- **Promote Loyalty Program Benefits Actively:** Clearly communicate the benefits of the loyalty program to both existing and potential members. Highlight the value proposition and incentivise non-members to join.
-
-- **Gather Member Feedback:** Regularly solicit feedback from loyalty program members to understand their needs and preferences. Use this feedback to refine the program and ensure it continues to meet their expectations.
-
-By implementing these recommendations across sales strategies, product offerings, and the loyalty program, OnyX Coffee can build upon its existing strengths, address areas for potential improvement, and drive sustainable and profitable growth in the Southern African market. Continuous monitoring and adaptation based on market trends and customer feedback will be crucial for long-term success.
+* **Sales Trends:** Sales are higher during the winter months (May, June, July, and August) in Southern Africa. **Recommendation:** Optimize inventory and staffing levels to meet the increased demand during these months. Consider running winter-themed promotions to further capitalize on this trend.
 
 
 See the raw data, Excel Dashboard, and pivot tables & charts in the [Excel workbook](https://github.com/svmkhize/Onyx-Coffee-2019-to-2022-Sales-Analysis/blob/main/OnyX%20Coffee%20Excel%20Workbook.xlsx)
