@@ -1,7 +1,4 @@
--- Create the database if it doesn't exist
 
-
--- Check datatypes for each feild in the database -- 
 
 -- Learning About Customers --
 
