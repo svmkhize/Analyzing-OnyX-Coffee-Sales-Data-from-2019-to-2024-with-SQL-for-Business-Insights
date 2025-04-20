@@ -304,15 +304,33 @@ According to the list, Cape Town and Johannesburg lead the Roasters in coffee be
  **13. Historical Annual Revenue Trends:** 
 
   ```sql
-
+SELECT YEAR(orders.order_date) AS Years,
+ROUND(SUM(orders.quantity * products.unit_price), 2) AS Revenue
+From orders
+LEFT JOIN products ON orders.product_id = products.product_id
+GROUP BY Years
+ORDER BY Years ASC;
 ```
+
+![Q13](https://github.com/user-attachments/assets/a3ff38fb-4702-4ce0-a3b5-f69b9284a0ca)
+
+Overall, total sales have shown a gradual increase from ZAR 493,447 in 2019 to ZAR 500,853 in 2024.
 
  **14. Historical Monthly Revenue Trends:** 
 
+How much revenue did we make each month in the last 6 years (2019 to 2024)
+
   ```sql
-
+SELECT YEAR(orders.order_date)AS order_year, MONTHNAME(orders.order_date) AS order_month,
+ROUND(SUM(orders.quantity * products.unit_price), 2) AS Sales 
+FROM orders
+LEFT JOIN products ON orders.product_id = products.product_id
+GROUP BY order_year, order_month
+ORDER BY Sales DESC;
 ```
+![Q14](https://github.com/user-attachments/assets/b516f421-63ee-482d-9492-bc09d2514185)
 
+During Southern Africa's winter months of May, June, July, and August, OnyX Coffee makes the most money.  Wintertime is often when people drink the most coffee.
 
 ## Recommendations
 ---
