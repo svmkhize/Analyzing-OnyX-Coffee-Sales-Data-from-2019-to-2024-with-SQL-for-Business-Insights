@@ -7,7 +7,7 @@ For more of my projects, visit [My Portfolio](https://svmkhize.github.io/Portfol
 - [Data Structure Overview](#data-structure-overview) 
 - [Executive Summary](#executive-summary) 
 - [Insights Deep-Dive](#insights-deep-dive) 
-- [Observation & Recommendation](#observation-&-recommendation)
+- [Observation and Recommendation](#observation-and-recommendation)
 
 ![OnyX_SQL_Banner](https://github.com/user-attachments/assets/494ad9e1-8f05-457f-b794-6b0bd730c1e5)
 
@@ -313,7 +313,7 @@ ORDER BY Sales DESC;
 
 During Southern Africa's winter months of May, June, July, and August, OnyX Coffee makes the most money.  Wintertime is often when people drink the most coffee.
 
-## Observation & Recommendation
+## Observation and Recommendation
 ---
 
 Based on the analysis of OnyX Coffee's data, the following observations and recommendations are made:
