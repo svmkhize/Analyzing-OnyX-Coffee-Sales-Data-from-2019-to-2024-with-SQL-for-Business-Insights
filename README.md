@@ -134,9 +134,16 @@ ORDER BY customer_count DESC;
 
  **4. Product Profitability Analysis:** 
 
-  ```sql
+Which product has the largest and the lowest profit margins?
 
+  ```sql
+SELECT *
+FROM products
+WHERE profit = (SELECT Max(profit) FROM products) OR profit = (SELECT Min(profit) FROM products);
 ```
+![Q4](https://github.com/user-attachments/assets/90b0e6e6-f042-4ed4-af32-f36e73bea49f)
+
+Robusta Dark Roast (0.2 kg) has the lowest profit margin of any coffee bean commodity, at ZAR 0.16, while Liberica Light Roast (2.5 kg) has the largest profit margin, at ZAR 4.74.
 
  **5. High-Performing Products:** 
 
