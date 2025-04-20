@@ -195,9 +195,18 @@ With ZAR 1,113,800.03 in revenue, light roast is the most popular roast for The 
 
  **8. Product Distribution and Country-Specific Sales:** 
 
-  ```sql
+Quantity sold and Number of Orders By Country
 
+  ```sql
+SELECT customers.country, SUM(orders.quantity) AS quantity_sold, COUNT(DISTINCT orders.customer_id) AS orders
+FROM orders
+LEFT JOIN customers ON customers.customer_id = orders.customer_id
+GROUP BY customers.country
+ORDER BY quantity_sold DESC;
 ```
+![Q8](https://github.com/user-attachments/assets/5e67ba21-c212-4df7-96e5-86a69c6c7b0c)
+
+South Africa accounts for the majority of orders.
 
  **9. Country-Specific Financial Performance:** 
 
