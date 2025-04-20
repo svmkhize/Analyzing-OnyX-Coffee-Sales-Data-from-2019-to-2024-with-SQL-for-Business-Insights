@@ -147,9 +147,19 @@ Robusta Dark Roast (0.2 kg) has the lowest profit margin of any coffee bean comm
 
  **5. High-Performing Products:** 
 
-  ```sql
+Products that have the highest profit margins and revenue.
 
+  ```sql
+SELECT orders.product_id, products.coffee_type, products.roast_type, products.Size, ROUND(SUM((orders.quantity * products.unit_price)), 2) AS Revenue, ROUND(SUM(orders.quantity * products.profit), 2) AS profit
+FROM orders
+LEFT JOIN products ON orders.product_id = products.product_id
+GROUP BY orders.product_id, products.coffee_type, products.roast_type, products.Size
+ORDER BY profit DESC
+LIMIT 10;
 ```
+![Q5](https://github.com/user-attachments/assets/b14dc6cf-7afe-412f-811f-2d67aedb78b5)
+
+Size 2.5 is the largest size that OnyX Coffee sells, and it makes up the majority of their coffee bean goods.  This suggests that the corporation often makes more money when selling larger quantities of the different kinds of coffee beans.  This makes sense because larger products sell more even though their production costs are probably just somewhat higher.
 
  **6. Coffee Bean Type Performance:** 
 
