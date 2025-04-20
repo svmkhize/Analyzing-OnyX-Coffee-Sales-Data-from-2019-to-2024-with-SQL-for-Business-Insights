@@ -101,6 +101,8 @@ ORDER BY money_spent DESC
 LIMIT 10;
 ```
 
+![Q1](https://github.com/user-attachments/assets/e5c9daed-ce9f-4ab5-9a73-fa41e7ef5367)
+
  **2. Loyalty Program Penetration:** 
 
  **3. Geographic Customer Distribution:** 
