@@ -334,8 +334,6 @@ Based on the analysis of OnyX Coffee's data, the following observations and reco
   **Recommendation:** Optimize inventory and staffing levels to meet the increased demand during these months. Consider running winter-themed promotions to further capitalize on this trend.
 
 
-See the raw data, Excel Dashboard, and pivot tables & charts in the [Excel workbook](https://github.com/svmkhize/Onyx-Coffee-2019-to-2022-Sales-Analysis/blob/main/OnyX%20Coffee%20Excel%20Workbook.xlsx)
-
-See my data cleaning, analysis, Excel Dashboard creation using pivot tables & charts in the [Technical Report](https://github.com/svmkhize/Onyx-Coffee-2019-to-2022-Sales-Analysis/blob/main/OnyX%20Coffee%20Sales%20Analysis%20Technical%20Report.pdf)
+If you are interested in my SQL code you can find it [here](https://github.com/svmkhize/Analyzing-OnyX-Coffee-Sales-Data-from-2019-to-2024-with-SQL-for-Business-Insights/blob/main/OnyXCoffeeQueries.sql)
 
 For more of my projects, visit [My Portfolio](https://svmkhize.github.io/Portfolio4SibusisoMkhize.github.io/)
