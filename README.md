@@ -17,6 +17,9 @@ For more of my projects, visit [My Portfolio](https://svmkhize.github.io/Portfol
 
 ## Project Background and Overview
 ---
+OnyX Coffee, established in 2018, is a South Africa-based company that sells coffee in three countries: South Africa, Namibia, and Botswana. 
+The company has a significant amount of data on its sales, product offerings, and loyalty program, which has been previously underutilized. I'm partnering with the Head of Operations to thoroughly analyze this data to uncover insights that will enhance OnyX’s profitability and commercial success. 
+
 The goal of this data analysis project is to give the head of operations at OnyX Coffee useful information based on the company's current sales, product, and loyalty program data. The main goal is to provide answers to important strategic questions so that the leadership team can make well-informed decisions that will increase profitability and lead to better commercial success. 
 The following primary topics of inquiry will be addressed by the project's thorough investigation of the data that is already available:
 
