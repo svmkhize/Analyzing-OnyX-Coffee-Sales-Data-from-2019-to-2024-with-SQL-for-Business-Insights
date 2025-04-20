@@ -169,7 +169,8 @@ Size 2.5 is the largest size that OnyX Coffee sells, and it makes up the majorit
 What is the revenue and profit for each coffee bean type?
 
   ```sql
-SELECT products.coffee_type, ROUND(SUM(orders.quantity * products.unit_price), 2) AS Revenue, ROUND(SUM(orders.quantity * products.profit), 2) AS profit
+SELECT products.coffee_type, ROUND(SUM(orders.quantity * products.unit_price), 2) AS Revenue,
+ROUND(SUM(orders.quantity * products.profit), 2) AS profit
 From orders
 LEFT JOIN customers ON orders.customer_id = customers.customer_id
 LEFT JOIN products ON orders.product_id = products.product_id
@@ -216,7 +217,8 @@ South Africa accounts for the majority of orders.
 Profit and Revenue Per Country
 
   ```sql
-SELECT customers.country, ROUND(SUM((orders.quantity * products.unit_price)), 2) AS Revenue, ROUND(SUM(orders.quantity * products.profit), 2) AS Profit
+SELECT customers.country, ROUND(SUM((orders.quantity * products.unit_price)), 2) AS Revenue,
+ROUND(SUM(orders.quantity * products.profit), 2) AS Profit
 FROM orders
 LEFT JOIN customers ON customers.customer_id = orders.customer_id
 LEFT JOIN products ON orders.product_id = products.product_id
