@@ -284,9 +284,22 @@ With ZAR 82,939.10, Excelsa coffee beans were the biggest source of income for N
 
  **12. Top South African Cities for Sales:** 
 
-  ```sql
+What are the top 5 cities in South Africa for coffee bean sales?
 
+  ```sql
+SELECT customers.city, customers.country, SUM(orders.quantity) as Quantity_Sold, 
+ROUND(SUM(orders.quantity * products.unit_price), 2) AS Sales
+FROM orders
+LEFT JOIN customers ON orders.customer_id = customers.customer_id
+LEFT JOIN products ON orders.product_id = products.product_id
+WHERE customers.country = 'South Africa'
+GROUP BY customers.country, customers.city
+ORDER BY Sales DESC
+LIMIT 5;
 ```
+![Q12](https://github.com/user-attachments/assets/23135d42-a7ab-4bb1-b066-c180db55fe66)
+
+According to the list, Cape Town and Johannesburg lead the Roasters in coffee bean sales.  Given that both cities rank among the nation's two largest and most urbanised, this is not surprising.   In large cities, more people drink coffee.
 
  **13. Historical Annual Revenue Trends:** 
 
