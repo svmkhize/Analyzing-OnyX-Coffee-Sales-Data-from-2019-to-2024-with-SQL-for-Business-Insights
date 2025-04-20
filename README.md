@@ -88,7 +88,8 @@ Below is the overview page from the Excel dashboard and more examples are includ
 ## Insights Deep-Dive
 ---
  **1. Customer Identification and Loyalty:** 
-- Who are the 10 best customers? Are they loyalty members?
+Who are the 10 best customers? Are they loyalty members?
+
  **2. Loyalty Program Penetration:** 
 
  **3. Geographic Customer Distribution:** 
