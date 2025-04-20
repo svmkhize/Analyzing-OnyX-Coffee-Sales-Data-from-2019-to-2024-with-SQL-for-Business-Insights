@@ -123,8 +123,13 @@ Fifty-one percent of consumers possess loyalty cards, while forty-nine percent d
   How many customers are from each country?
 
  ```sql
-
+SELECT customers.country, COUNT(DISTINCT customers.customer_id) AS customer_count
+FROM customers
+GROUP BY customers.country
+ORDER BY customer_count DESC;
 ```
+
+70% of the clients are from South Africa, making them the largest group.
 
  **4. Product Profitability Analysis:** 
 
