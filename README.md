@@ -17,16 +17,29 @@ For more of my projects, visit [My Portfolio](https://svmkhize.github.io/Portfol
 
 ## Project Background and Overview
 ---
-OnyX Coffee, established in 2018, is a South Africa-based company that sells coffee in three countries: South Africa, Namibia, and Botswana. 
-The company has a significant amount of data on its sales, product offerings, and loyalty program, which has been previously underutilized. I'm partnering with the Head of Operations to thoroughly analyze this data to uncover insights that will enhance OnyX’s profitability and commercial success. 
+The goal of this data analysis project is to give the head of operations at OnyX Coffee useful information based on the company's current sales, product, and loyalty program data. The main goal is to provide answers to important strategic questions so that the leadership team can make well-informed decisions that will increase profitability and lead to better commercial success. 
+The following primary topics of inquiry will be addressed by the project's thorough investigation of the data that is already available:
 
-<b>Insights and recommendations are provided on the following key business areas:</b>
+**1. Customer Identification and Loyalty:** identifying, characterising, and assessing the top ten consumers based on their purchase value and loyalty program participation. This will assist in identifying the most valued clients and determining how well the loyalty program engages them. 
 
-<b> 1. Sales Trends and Growth Analysis:</b> This involves evaluating OnyX’s historical sales patterns from 2019 to 2024 across its three operations, focusing on revenue, order volume, and average order value (AOV).<br>
-<b> 2. Product Performance:</b> This section includes an analysis of OnyX’s product lines to understand their impact on overall sales.<br>
-<b> 3. Loyalty Program Success:</b> This involves assessing the effectiveness of the loyalty program in driving customer sales.
+**2. Loyalty Program Penetration:** Calculating how many clients are presently enrolled in the loyalty program. This will give an indication of the program's total reach and adoption rate. 
 
-This analysis will assist the OnyX’s product team to identify the most profitable coffee products and optimize pricing, the inventory Management team to ensure that the right quantities of each coffee product are stocked, and the marketing team to tailor marketing campaigns to specific customer segments.
+**3. Geographic Customer Distribution:** Calculating how many clients come from South Africa, Namibia, and Botswana, the three operating nations. This will provide information on regional client concentration and market penetration.
+**4. Product Profitability Analysis:** Examining each OnyX Coffee product's profit margin to determine which are the most and least profitable. Pricing and product strategy decisions will be influenced by this. 
+**5. High-Performing Products:** Finding goods that generate a sizable amount of income in addition to having high profit margins. This will showcase the main goods that contribute to financial success.
+**6. Coffee Bean Type Performance:** Examining the earnings and profits produced by each unique variety of coffee bean that OnyX sells. This will yield useful data for product development and sourcing. 
+
+**7. Roast Preference Analysis:** Identifying the coffee roast type that produces the largest total sales volume, such as light, medium, or dark. This will direct marketing and production activities.
+**8. Product Distribution and Country-Specific Sales:** Analysing the volume of orders and sales of coffee bean products in each of the three nations. This will show demand and sales activity particular to the market. 
+**9. Country-Specific Financial Performance:** Examining the overall revenue and profit made in each operating nation. The financial contribution of each market will be clearly understood as a result.
+**10. Top Products by Country:** Determining which product sells the best in each of the three nations. This will draw attention to product preferences unique to a given market. 
+
+**11. Country-Specific Bean Type Performance:** Analysing the earnings and profits of every variety of coffee bean in every nation. This will give a detailed picture of market-specific bean preferences and profitability.
+**12. Top South African Cities for Sales:** Identifying the top 5 South African cities in terms of coffee bean sales volume. This will assist in concentrating distribution and marketing activities in the home market. 
+**13. Historical Annual Revenue Trends:** Examining OnyX Coffee's total revenue for each of the previous six fiscal years (2019–2024). An outline of the company's revenue growth trend will be provided by this.
+**14. Historical Monthly Revenue Trends:** To find seasonal patterns and trends in sales performance, the monthly revenue numbers for the previous six years (2019–2024) are examined.
+Through thorough data analysis, this project seeks to answer these questions and provide actionable insights that will enable OnyX Coffee to improve customer engagement, streamline operations, and eventually increase profitability and long-term commercial success in the Southern African market.
+
 
 ## Data Structure Overview
 ---
