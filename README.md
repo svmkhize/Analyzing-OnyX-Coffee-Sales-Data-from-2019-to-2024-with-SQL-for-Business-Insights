@@ -107,29 +107,89 @@ According to customer sales, these are the top ten clients.  According to the ta
 
  **2. Loyalty Program Penetration:** 
 
+How many customers have loyalty cards?
+
+ ```sql
+SELECT loyalty_card, COUNT(loyalty_card) AS Count 
+FROM customers
+GROUP BY loyalty_card;
+```
+
+Fifty-one percent of consumers possess loyalty cards, while forty-nine percent do not.  It's interesting that, out of the top 10 customers on the list, only 60% had loyalty cards, although 51% of all customers had them.  Customers that purchase more goods from a business are typically more likely to become members.
+
  **3. Geographic Customer Distribution:** 
+
+  How many customers are from each country?
+
+ ```sql
+
+```
 
  **4. Product Profitability Analysis:** 
 
+  ```sql
+
+```
+
  **5. High-Performing Products:** 
+
+  ```sql
+
+```
 
  **6. Coffee Bean Type Performance:** 
 
+  ```sql
+
+```
+
  **7. Roast Preference Analysis:** 
+
+  ```sql
+
+```
 
  **8. Product Distribution and Country-Specific Sales:** 
 
+  ```sql
+
+```
+
  **9. Country-Specific Financial Performance:** 
+
+  ```sql
+
+```
 
  **10. Top Products by Country:** 
 
+  ```sql
+
+```
+
  **11. Country-Specific Bean Type Performance:** 
+
+  ```sql
+
+```
 
  **12. Top South African Cities for Sales:** 
 
+  ```sql
+
+```
+
  **13. Historical Annual Revenue Trends:** 
 
+  ```sql
+
+```
+
  **14. Historical Monthly Revenue Trends:** 
+
+  ```sql
+
+```
 
 
 ## Recommendations
