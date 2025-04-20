@@ -87,33 +87,33 @@ Below is the overview page from the Excel dashboard and more examples are includ
 
 ## Insights Deep-Dive
 ---
-### **1. Customer Identification and Loyalty:** 
+ **1. Customer Identification and Loyalty:** 
+- Who are the 10 best customers? Are they loyalty members?
+ **2. Loyalty Program Penetration:** 
 
-### **2. Loyalty Program Penetration:** 
+ **3. Geographic Customer Distribution:** 
 
-### **3. Geographic Customer Distribution:** 
+ **4. Product Profitability Analysis:** 
 
-### **4. Product Profitability Analysis:** 
+ **5. High-Performing Products:** 
 
-### **5. High-Performing Products:** 
+ **6. Coffee Bean Type Performance:** 
 
-### **6. Coffee Bean Type Performance:** 
+ **7. Roast Preference Analysis:** 
 
-### **7. Roast Preference Analysis:** 
+ **8. Product Distribution and Country-Specific Sales:** 
 
-### **8. Product Distribution and Country-Specific Sales:** 
+ **9. Country-Specific Financial Performance:** 
 
-### **9. Country-Specific Financial Performance:** 
+ **10. Top Products by Country:** 
 
-### **10. Top Products by Country:** 
+ **11. Country-Specific Bean Type Performance:** 
 
-### **11. Country-Specific Bean Type Performance:** 
+ **12. Top South African Cities for Sales:** 
 
-### **12. Top South African Cities for Sales:** 
+ **13. Historical Annual Revenue Trends:** 
 
-### **13. Historical Annual Revenue Trends:** 
-
-### **14. Historical Monthly Revenue Trends:** 
+ **14. Historical Monthly Revenue Trends:** 
 
 
 ## Recommendations
