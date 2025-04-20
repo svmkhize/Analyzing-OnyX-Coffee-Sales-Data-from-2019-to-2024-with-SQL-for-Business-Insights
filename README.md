@@ -47,6 +47,7 @@ The following primary topics of inquiry will be addressed by the project's thoro
 **13. Historical Annual Revenue Trends:** Examining OnyX Coffee's total revenue for each of the previous six fiscal years (2019–2024). An outline of the company's revenue growth trend will be provided by this.
 
 **14. Historical Monthly Revenue Trends:** To find seasonal patterns and trends in sales performance, the monthly revenue numbers for the previous six years (2019–2024) are examined.
+
 Through thorough data analysis, this project seeks to answer these questions and provide actionable insights that will enable OnyX Coffee to improve customer engagement, streamline operations, and eventually increase profitability and long-term commercial success in the Southern African market.
 
 
