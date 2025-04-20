@@ -92,7 +92,8 @@ Below is the overview page from the Excel dashboard and more examples are includ
 Who are the 10 best customers? Are they loyalty members?
 
 ```sql
-SELECT orders.customer_id, customers.customer_name,  customers.loyalty_card, SUM(Quantity) AS quantity_purchased, ROUND(SUM((orders.Quantity * products.unit_price)), 2) AS money_spent
+SELECT orders.customer_id, customers.customer_name,  customers.loyalty_card, SUM(Quantity) AS quantity_purchased,
+ROUND(SUM((orders.Quantity * products.unit_price)), 2) AS money_spent
 FROM orders
 LEFT JOIN customers ON orders.customer_id = customers.customer_id
 LEFT JOIN products ON orders.product_id = products.product_id
@@ -150,7 +151,9 @@ Robusta Dark Roast (0.2 kg) has the lowest profit margin of any coffee bean comm
 Products that have the highest profit margins and revenue.
 
   ```sql
-SELECT orders.product_id, products.coffee_type, products.roast_type, products.Size, ROUND(SUM((orders.quantity * products.unit_price)), 2) AS Revenue, ROUND(SUM(orders.quantity * products.profit), 2) AS profit
+SELECT orders.product_id, products.coffee_type, products.roast_type, products.Size,
+ROUND(SUM((orders.quantity * products.unit_price)), 2) AS Revenue,
+ROUND(SUM(orders.quantity * products.profit), 2) AS profit
 FROM orders
 LEFT JOIN products ON orders.product_id = products.product_id
 GROUP BY orders.product_id, products.coffee_type, products.roast_type, products.Size
