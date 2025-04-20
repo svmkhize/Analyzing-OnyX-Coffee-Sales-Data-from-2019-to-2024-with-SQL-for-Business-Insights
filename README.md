@@ -128,6 +128,7 @@ FROM customers
 GROUP BY customers.country
 ORDER BY customer_count DESC;
 ```
+![Q3](https://github.com/user-attachments/assets/d93ded8f-64f9-4a51-bd72-1901260002d1)
 
 70% of the clients are from South Africa, making them the largest group.
 
